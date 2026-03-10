@@ -37,15 +37,19 @@ A real‑time social media dashboard with authentication, posts, comments, and l
 ```bash
 git clone https://github.com/Aziziz200/threads-dashboard-fullstack.git
 cd threads-dashboard-fullstack
+
 2. Backend Setup
 bash
 cd backend
 # Install dependencies
 npm install
+
 # Create .env file from example
 cp .env.example .env
 # Edit .env with your MongoDB URI and JWT secret
+
 # (example: MONGODB_URI=mongodb://localhost:27017/threads)
+
 # Start development server
 npm run dev
 The backend will run on http://localhost:3001.
@@ -55,13 +59,17 @@ Open a new terminal and navigate to the frontend folder:
 
 bash
 cd frontend
+
 # Install dependencies
 npm install
+
 # Create .env.local file from example
 cp .env.local.example .env.local
 # (Make sure NEXT_PUBLIC_API_URL points to your backend URL, default is http://localhost:3001/api)
+
 # Start development server
 npm run dev
+
 The frontend will run on http://localhost:3000.
 
 4. Access the application
